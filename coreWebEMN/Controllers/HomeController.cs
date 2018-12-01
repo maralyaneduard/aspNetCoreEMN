@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using coreWebEMN.Models;
+using LoggerEMN;
 
 namespace coreWebEMN.Controllers
 {
@@ -12,6 +9,8 @@ namespace coreWebEMN.Controllers
     {
         public IActionResult Index()
         {
+            Logger logger = new Logger();
+            logger.Log("first log");
             return View();
         }
 
