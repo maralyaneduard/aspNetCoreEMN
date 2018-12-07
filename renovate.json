@@ -1,3 +1,5 @@
 {
-  "suppressNotifications": ["prIgnoreNotification"]
+  "extends": [
+    "config:base"
+  ]
 }
