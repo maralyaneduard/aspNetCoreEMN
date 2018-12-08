@@ -1,3 +1,4 @@
 {
-  "raiseDeprecationWarnings": false
+  "raiseDeprecationWarnings": false,
+  "suppressNotifications":["prEditNotification"]
 }
