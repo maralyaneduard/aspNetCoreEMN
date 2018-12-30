@@ -1,4 +1,5 @@
 {
   "raiseDeprecationWarnings": false,
-  "suppressNotifications":["prEditNotification"]
+  "suppressNotifications":["prEditNotification"],
+  "automerge": true,
 }
